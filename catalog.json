@@ -1,0 +1,2753 @@
+{
+ "schema": 1,
+ "updated": "2026-11-14",
+ "templates": [
+  {
+   "key": "kinetic-say-it-loud",
+   "name": "Say It Loud",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "megaphone",
+   "hue": 0.02,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 2,
+     "effect": "none",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "SAY IT LOUD AND PROUD",
+     "layer": {
+      "text": "SAY IT LOUD AND PROUD",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.16,
+      "color": {
+       "r": 1,
+       "g": 0.88,
+       "b": 0.15
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.5,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Big words slam in one at a time on the beat."
+  },
+  {
+   "key": "kinetic-hot-take",
+   "name": "Hot Take",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "flame",
+   "hue": 0.03,
+   "bpm": 140,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "cyberpunk",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "HOT TAKE INCOMING",
+     "layer": {
+      "text": "HOT TAKE INCOMING",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 0.25,
+       "b": 0.2
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Under",
+     "placeholder": "hear me out",
+     "layer": {
+      "text": "hear me out",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.62
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 6,
+     "beats": 18,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Fast shakes and a red slam for opinions."
+  },
+  {
+   "key": "kinetic-pov",
+   "name": "POV",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "eye",
+   "hue": 0.75,
+   "bpm": 110,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.5,
+   "look": "moody",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "POV: you finally did it",
+     "layer": {
+      "text": "POV: you finally did it",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.3
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Typewriter words over slow pushes."
+  },
+  {
+   "key": "kinetic-three-things",
+   "name": "3 Things",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "list.number",
+   "hue": 0.55,
+   "bpm": 120,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "whip"
+    }
+   ],
+   "transitionSeconds": 0.35,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "List",
+     "placeholder": "Three things\nthat changed\nmy life",
+     "layer": {
+      "text": "Three things\nthat changed\nmy life",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "stack",
+     "stepBeats": 2
+    }
+   ],
+   "notes": "Lines build up one at a time."
+  },
+  {
+   "key": "kinetic-motivation",
+   "name": "Monday Motivation",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "bolt.heart",
+   "hue": 0.08,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "WAKE UP. SHOW UP. NEVER GIVE UP.",
+     "layer": {
+      "text": "WAKE UP. SHOW UP. NEVER GIVE UP.",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.13,
+      "color": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.35,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 14,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "kinetic-quote",
+   "name": "Quote of the Day",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "quote.opening",
+   "hue": 0.62,
+   "bpm": 90,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 8,
+     "effect": "drift",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.8,
+   "look": "matte",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Quote",
+     "placeholder": "Small steps every day",
+     "layer": {
+      "text": "Small steps every day",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 20,
+     "motion": "typewriter",
+     "stepBeats": 1
+    },
+    {
+     "label": "Author",
+     "placeholder": "— you",
+     "layer": {
+      "text": "— you",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.045,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.6
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 12,
+     "beats": 20,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Calm typewriter quote with a credit."
+  },
+  {
+   "key": "kinetic-countdown",
+   "name": "3, 2, 1 Go",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "timer",
+   "hue": 0.0,
+   "bpm": 128,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "neonNight",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Count",
+     "placeholder": "3 2 1 GO!",
+     "layer": {
+      "text": "3 2 1 GO!",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.3,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.8,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 0.2,
+       "g": 0.85,
+       "b": 1
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "A countdown that lands on the drop."
+  },
+  {
+   "key": "kinetic-announcement",
+   "name": "Big News",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "sparkles",
+   "hue": 0.85,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "glitch"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "WE HAVE BIG NEWS",
+     "layer": {
+      "text": "WE HAVE BIG NEWS",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "gradient": {
+       "r": 1,
+       "g": 0.75,
+       "b": 0.3
+      }
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Gradient words for launches and reveals."
+  },
+  {
+   "key": "kinetic-lyrics",
+   "name": "Lyric Drop",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "music.mic",
+   "hue": 0.7,
+   "bpm": 100,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.5,
+   "look": "moody",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Lyrics",
+     "placeholder": "and I keep coming back\nto this feeling",
+     "layer": {
+      "text": "and I keep coming back\nto this feeling",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.55
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.5,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.85,
+       "b": 0.9
+      }
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 4
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "kinetic-day-in-life",
+   "name": "Day in My Life",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "sun.max",
+   "hue": 0.12,
+   "bpm": 118,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "slideLeft"
+    },
+    {
+     "beats": 2,
+     "effect": "drift",
+     "transition": "none"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "slideLeft"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "a day in my life",
+     "layer": {
+      "text": "a day in my life",
+      "fontFamily": "American Typewriter",
+      "bold": false,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "kinetic-glitch-words",
+   "name": "Glitch Words",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "waveform.path.ecg",
+   "hue": 0.5,
+   "bpm": 140,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "glitch"
+    },
+    {
+     "beats": 1,
+     "effect": "none",
+     "transition": "glitch"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "cyberpunk",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "ERROR 404 SLEEP NOT FOUND",
+     "layer": {
+      "text": "ERROR 404 SLEEP NOT FOUND",
+      "fontFamily": "Menlo",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 0.3,
+       "g": 1,
+       "b": 0.45
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.3,
+      "glow": 0.7,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 0.1,
+       "g": 0.9,
+       "b": 0.3
+      }
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "kinetic-rules",
+   "name": "Rules I Live By",
+   "category": "Kinetic Text",
+   "family": "kinetic",
+   "symbol": "checklist",
+   "hue": 0.35,
+   "bpm": 112,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "whip"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "whip"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Rules",
+     "placeholder": "1. drink water\n2. go outside\n3. call your mom",
+     "layer": {
+      "text": "1. drink water\n2. go outside\n3. call your mom",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.065,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.25,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "dump-classic",
+   "name": "Photo Dump",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "photo.stack",
+   "hue": 0.08,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "photo dump",
+     "layer": {
+      "text": "photo dump",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 0.25,
+       "g": 0.2,
+       "b": 0.18
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Each shot drops in as a printed photo.",
+   "card": {
+    "tilt": 4,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.93,
+     "g": 0.89,
+     "b": 0.84
+    }
+   }
+  },
+  {
+   "key": "dump-summer",
+   "name": "Summer Dump",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "sun.max",
+   "hue": 0.12,
+   "bpm": 126,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "summer '26",
+     "layer": {
+      "text": "summer '26",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 0.6,
+       "g": 0.25,
+       "b": 0.1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 5,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 1,
+     "g": 0.85,
+     "b": 0.6
+    }
+   }
+  },
+  {
+   "key": "dump-film-roll",
+   "name": "Film Roll",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "film",
+   "hue": 0.6,
+   "bpm": 100,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "portra",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "Dark frames on a dark table.",
+   "card": {
+    "tilt": 3,
+    "width": 0.82,
+    "border": 0.04,
+    "bottom": 0.04,
+    "paper": {
+     "r": 0.08,
+     "g": 0.08,
+     "b": 0.08
+    },
+    "backdrop": {
+     "r": 0.12,
+     "g": 0.12,
+     "b": 0.13
+    }
+   }
+  },
+  {
+   "key": "dump-scrapbook",
+   "name": "Scrapbook",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "book",
+   "hue": 0.95,
+   "bpm": 110,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "vintage70s",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "our little scrapbook",
+     "layer": {
+      "text": "our little scrapbook",
+      "fontFamily": "Bradley Hand",
+      "bold": true,
+      "italic": false,
+      "size": 0.055,
+      "color": {
+       "r": 0.2,
+       "g": 0.3,
+       "b": 0.25
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 7,
+    "width": 0.74,
+    "border": 0.05,
+    "bottom": 0.22,
+    "paper": {
+     "r": 1,
+     "g": 0.98,
+     "b": 0.92
+    },
+    "backdrop": {
+     "r": 0.82,
+     "g": 0.88,
+     "b": 0.8
+    }
+   }
+  },
+  {
+   "key": "dump-travel",
+   "name": "Travel Diary",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "airplane",
+   "hue": 0.55,
+   "bpm": 116,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    },
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "kodachrome",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Place",
+     "placeholder": "where to next?",
+     "layer": {
+      "text": "where to next?",
+      "fontFamily": "American Typewriter",
+      "bold": false,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 0.15,
+       "g": 0.2,
+       "b": 0.3
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 4,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.78,
+     "g": 0.86,
+     "b": 0.92
+    }
+   }
+  },
+  {
+   "key": "dump-besties",
+   "name": "Besties",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "heart",
+   "hue": 0.92,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "my people",
+     "layer": {
+      "text": "my people",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 0.8,
+       "g": 0.2,
+       "b": 0.45
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 6,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 1,
+     "g": 0.86,
+     "b": 0.9
+    }
+   }
+  },
+  {
+   "key": "dump-birthday",
+   "name": "Birthday Dump",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "gift",
+   "hue": 0.88,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "happy birthday!",
+     "layer": {
+      "text": "happy birthday!",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.075,
+      "color": {
+       "r": 0.85,
+       "g": 0.25,
+       "b": 0.4
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 5,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 1,
+     "g": 0.92,
+     "b": 0.6
+    }
+   }
+  },
+  {
+   "key": "dump-recap",
+   "name": "Month Recap",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "calendar",
+   "hue": 0.3,
+   "bpm": 120,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "matte",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Month",
+     "placeholder": "november recap",
+     "layer": {
+      "text": "november recap",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 0.2,
+       "g": 0.2,
+       "b": 0.2
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.92
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.15,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 3,
+    "width": 0.78,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.9,
+     "g": 0.9,
+     "b": 0.88
+    }
+   }
+  },
+  {
+   "key": "dump-cozy",
+   "name": "Cozy Season",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "cup.and.saucer",
+   "hue": 0.07,
+   "bpm": 96,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "vintage70s",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "cozy season",
+     "layer": {
+      "text": "cozy season",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 0.95,
+       "b": 0.88
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 4,
+    "width": 0.8,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.55,
+     "g": 0.38,
+     "b": 0.28
+    }
+   }
+  },
+  {
+   "key": "dump-polaroid-wall",
+   "name": "Polaroid Wall",
+   "category": "Photo Dump",
+   "family": "photoDump",
+   "symbol": "square.grid.2x2",
+   "hue": 0.0,
+   "bpm": 132,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "Quick drops on every beat.",
+   "card": {
+    "tilt": 8,
+    "width": 0.7,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.96,
+     "g": 0.96,
+     "b": 0.96
+    }
+   }
+  },
+  {
+   "key": "reveal-glow-up",
+   "name": "Glow Up",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "sparkles",
+   "hue": 0.85,
+   "bpm": 110,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "Pairs: before, then after wipes over it."
+  },
+  {
+   "key": "reveal-room",
+   "name": "Room Makeover",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "sofa",
+   "hue": 0.1,
+   "bpm": 100,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "BEFORE",
+    "AFTER"
+   ]
+  },
+  {
+   "key": "reveal-then-now",
+   "name": "Then & Now",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "clock.arrow.circlepath",
+   "hue": 0.08,
+   "bpm": 96,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "THEN",
+    "NOW"
+   ]
+  },
+  {
+   "key": "reveal-edit",
+   "name": "Edit Reveal",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "wand.and.stars",
+   "hue": 0.6,
+   "bpm": 120,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "tealOrange",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "RAW",
+    "EDITED"
+   ]
+  },
+  {
+   "key": "reveal-fitness",
+   "name": "Fitness Journey",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "figure.run",
+   "hue": 0.02,
+   "bpm": 128,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "moody",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "DAY 1",
+    "DAY 90"
+   ]
+  },
+  {
+   "key": "reveal-recipe",
+   "name": "Recipe Result",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "fork.knife",
+   "hue": 0.1,
+   "bpm": 110,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "INGREDIENTS",
+    "RESULT"
+   ]
+  },
+  {
+   "key": "reveal-clean",
+   "name": "Clean With Me",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "bubbles.and.sparkles",
+   "hue": 0.5,
+   "bpm": 118,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "arctic",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "MESSY",
+    "CLEAN"
+   ]
+  },
+  {
+   "key": "reveal-hair",
+   "name": "New Look",
+   "category": "Before & After",
+   "family": "beforeAfter",
+   "symbol": "scissors",
+   "hue": 0.9,
+   "bpm": 120,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "BEFORE",
+    "AFTER"
+   ]
+  },
+  {
+   "key": "season-halloween",
+   "name": "Spooky Season",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "moon.stars",
+   "hue": 0.07,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "shake",
+     "transition": "glitch"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "push",
+     "transition": "dipToBlack"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "noir",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "SPOOKY SEASON",
+     "layer": {
+      "text": "SPOOKY SEASON",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.13,
+      "color": {
+       "r": 1,
+       "g": 0.5,
+       "b": 0.1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.6,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.4,
+       "b": 0
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "Glitches and flashes for Halloween."
+  },
+  {
+   "key": "season-birthday",
+   "name": "Happy Birthday",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "birthday.cake",
+   "hue": 0.9,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "circle"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Name",
+     "placeholder": "Happy Birthday!",
+     "layer": {
+      "text": "Happy Birthday!",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-christmas",
+   "name": "Holiday Lights",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "snowflake",
+   "hue": 0.35,
+   "bpm": 108,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "blurZoom"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "Merry & Bright",
+     "layer": {
+      "text": "Merry & Bright",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.92,
+       "b": 0.75
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.7,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.4
+      }
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-new-year",
+   "name": "New Year",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "party.popper",
+   "hue": 0.12,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "spin"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "neonNight",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Count",
+     "placeholder": "5 4 3 2 1 HAPPY NEW YEAR",
+     "layer": {
+      "text": "5 4 3 2 1 HAPPY NEW YEAR",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.3,
+      "glow": 0.6,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.7,
+       "b": 0.2
+      }
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-diwali",
+   "name": "Diwali Glow",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "flame",
+   "hue": 0.1,
+   "bpm": 110,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "blurZoom"
+    },
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.5,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "Happy Diwali",
+     "layer": {
+      "text": "Happy Diwali",
+      "fontFamily": "Didot",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.82,
+       "b": 0.4
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.8,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.6,
+       "b": 0.1
+      }
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-holi",
+   "name": "Holi Colors",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "paintpalette",
+   "hue": 0.85,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "shake",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "HAPPY HOLI",
+     "layer": {
+      "text": "HAPPY HOLI",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.13,
+      "color": {
+       "r": 1,
+       "g": 0.3,
+       "b": 0.6
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.3,
+      "glow": 0,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "gradient": {
+       "r": 1,
+       "g": 0.85,
+       "b": 0.2
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-eid",
+   "name": "Eid Mubarak",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "moon.stars",
+   "hue": 0.45,
+   "bpm": 96,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.7,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "Eid Mubarak",
+     "layer": {
+      "text": "Eid Mubarak",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.9,
+       "b": 0.7
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.5,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.85,
+       "b": 0.5
+      }
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-valentine",
+   "name": "Valentine",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "heart.fill",
+   "hue": 0.95,
+   "bpm": 100,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "circle"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "you & me",
+     "layer": {
+      "text": "you & me",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.85,
+       "b": 0.9
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.5,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      }
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-wedding",
+   "name": "Wedding Highlights",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "heart.circle",
+   "hue": 0.1,
+   "bpm": 84,
+   "length": 25,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 8,
+     "effect": "pull",
+     "transition": "dipToBlack"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.9,
+   "look": "portra",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Names",
+     "placeholder": "Anna & Sam",
+     "layer": {
+      "text": "Anna & Sam",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "pop",
+     "stepBeats": 1
+    },
+    {
+     "label": "Date",
+     "placeholder": "11.14.2026",
+     "layer": {
+      "text": "11.14.2026",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.04,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.58
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 4,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-graduation",
+   "name": "Graduation",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "graduationcap",
+   "hue": 0.6,
+   "bpm": 122,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "CLASS OF 2026",
+     "layer": {
+      "text": "CLASS OF 2026",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.11,
+      "color": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-back-to-school",
+   "name": "Back to School",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "backpack",
+   "hue": 0.15,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "slideLeft"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "back to school",
+     "layer": {
+      "text": "back to school",
+      "fontFamily": "Chalkboard SE",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.2,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-spring",
+   "name": "Spring Bloom",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "leaf",
+   "hue": 0.3,
+   "bpm": 104,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "softSwipe"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "hello spring",
+     "layer": {
+      "text": "hello spring",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-summer",
+   "name": "Summer Vibes",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "beach.umbrella",
+   "hue": 0.12,
+   "bpm": 126,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "SUMMER VIBES",
+     "layer": {
+      "text": "SUMMER VIBES",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.12,
+      "color": {
+       "r": 1,
+       "g": 0.9,
+       "b": 0.3
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "season-thanksgiving",
+   "name": "Grateful",
+   "category": "Seasonal",
+   "family": "classic",
+   "symbol": "leaf.fill",
+   "hue": 0.08,
+   "bpm": 96,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.7,
+   "look": "vintage70s",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "grateful for\nthese moments",
+     "layer": {
+      "text": "grateful for\nthese moments",
+      "fontFamily": "Georgia",
+      "bold": false,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 0.95,
+       "b": 0.85
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}
