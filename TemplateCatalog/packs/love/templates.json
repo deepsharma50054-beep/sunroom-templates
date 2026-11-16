@@ -1,0 +1,578 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "love-vows",
+   "name": "The Vows",
+   "category": "Wedding & Love",
+   "family": "classic",
+   "symbol": "heart.text.square",
+   "hue": 0.08,
+   "bpm": 80,
+   "length": 25,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 8,
+     "effect": "pull",
+     "transition": "dipToBlack"
+    }
+   ],
+   "transitionSeconds": 0.9,
+   "look": "portra",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Names",
+     "placeholder": "Maya & Leo",
+     "layer": {
+      "text": "Maya & Leo",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.48
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 14,
+     "motion": "pop",
+     "stepBeats": 1
+    },
+    {
+     "label": "Date",
+     "placeholder": "forever starts today",
+     "layer": {
+      "text": "forever starts today",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.58
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 4,
+     "beats": 16,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "love-save-date",
+   "name": "Save the Date",
+   "category": "Wedding & Love",
+   "family": "photoDump",
+   "symbol": "calendar.badge.clock",
+   "hue": 0.95,
+   "bpm": 100,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "save the date",
+     "layer": {
+      "text": "save the date",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 0.6,
+       "g": 0.3,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.1
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    },
+    {
+     "label": "Date",
+     "placeholder": "06 · 14 · 2027",
+     "layer": {
+      "text": "06 · 14 · 2027",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 0.45,
+       "g": 0.3,
+       "b": 0.3
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 2,
+     "beats": 14,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 3,
+    "width": 0.78,
+    "border": 0.045,
+    "bottom": 0.22,
+    "paper": {
+     "r": 1,
+     "g": 0.99,
+     "b": 0.97
+    },
+    "backdrop": {
+     "r": 0.96,
+     "g": 0.88,
+     "b": 0.88
+    }
+   }
+  },
+  {
+   "key": "love-anniversary",
+   "name": "Anniversary",
+   "category": "Wedding & Love",
+   "family": "classic",
+   "symbol": "sparkles",
+   "hue": 0.1,
+   "bpm": 92,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "blurZoom"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.7,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Years",
+     "placeholder": "5 years of us",
+     "layer": {
+      "text": "5 years of us",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 0.92,
+       "b": 0.8
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.5,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      }
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "love-how-we-met",
+   "name": "How We Met",
+   "category": "Wedding & Love",
+   "family": "kinetic",
+   "symbol": "quote.bubble",
+   "hue": 0.92,
+   "bpm": 96,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "matte",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Story",
+     "placeholder": "it started with\na wrong number",
+     "layer": {
+      "text": "it started with\na wrong number",
+      "fontFamily": "Georgia",
+      "bold": false,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 4
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "love-first-dance",
+   "name": "First Dance",
+   "category": "Wedding & Love",
+   "family": "classic",
+   "symbol": "figure.socialdance",
+   "hue": 0.85,
+   "bpm": 84,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 8,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 8,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 1.0,
+   "look": "noir",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "our first dance",
+     "layer": {
+      "text": "our first dance",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.85
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 14,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "love-proposal",
+   "name": "She Said Yes",
+   "category": "Wedding & Love",
+   "family": "kinetic",
+   "symbol": "heart.circle.fill",
+   "hue": 0.12,
+   "bpm": 120,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "zoom"
+    },
+    {
+     "beats": 1,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "SHE SAID YES!",
+     "layer": {
+      "text": "SHE SAID YES!",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.35,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.6,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      }
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "love-polaroids",
+   "name": "Love Polaroids",
+   "category": "Wedding & Love",
+   "family": "photoDump",
+   "symbol": "heart",
+   "hue": 0.97,
+   "bpm": 112,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "us",
+     "layer": {
+      "text": "us",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 0.75,
+       "g": 0.2,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 6,
+    "width": 0.72,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.98,
+     "g": 0.9,
+     "b": 0.92
+    }
+   }
+  },
+  {
+   "key": "love-then-now",
+   "name": "Then & Now (Us)",
+   "category": "Wedding & Love",
+   "family": "beforeAfter",
+   "symbol": "clock.arrow.circlepath",
+   "hue": 0.95,
+   "bpm": 92,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "portra",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "2019",
+    "2026"
+   ]
+  }
+ ]
+}
