@@ -1,0 +1,577 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "travel-postcard",
+   "name": "Postcard From",
+   "category": "Travel",
+   "family": "photoDump",
+   "symbol": "envelope",
+   "hue": 0.55,
+   "bpm": 112,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "kodachrome",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Place",
+     "placeholder": "greetings from lisbon",
+     "layer": {
+      "text": "greetings from lisbon",
+      "fontFamily": "American Typewriter",
+      "bold": false,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 0.15,
+       "g": 0.25,
+       "b": 0.4
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 4,
+    "width": 0.8,
+    "border": 0.05,
+    "bottom": 0.2,
+    "paper": {
+     "r": 1,
+     "g": 0.98,
+     "b": 0.94
+    },
+    "backdrop": {
+     "r": 0.75,
+     "g": 0.86,
+     "b": 0.95
+    }
+   }
+  },
+  {
+   "key": "travel-passport",
+   "name": "Passport Stamps",
+   "category": "Travel",
+   "family": "classic",
+   "symbol": "globe.europe.africa",
+   "hue": 0.58,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "whip"
+    },
+    {
+     "beats": 1,
+     "effect": "push",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "tealOrange",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "PASSPORT FULL",
+     "layer": {
+      "text": "PASSPORT FULL",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.12,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0.35,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Count",
+     "placeholder": "6 countries · 21 days",
+     "layer": {
+      "text": "6 countries · 21 days",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.045,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.58
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 4,
+     "beats": 16,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-road-trip",
+   "name": "Road Trip",
+   "category": "Travel",
+   "family": "classic",
+   "symbol": "car",
+   "hue": 0.1,
+   "bpm": 118,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "slideLeft"
+    },
+    {
+     "beats": 2,
+     "effect": "drift",
+     "transition": "whip"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "road trip diaries",
+     "layer": {
+      "text": "road trip diaries",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 0.95,
+       "b": 0.85
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-city-lights",
+   "name": "City Lights",
+   "category": "Travel",
+   "family": "classic",
+   "symbol": "building.2",
+   "hue": 0.72,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "glitch"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "flash"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "zoom"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "neonNight",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "City",
+     "placeholder": "TOKYO NIGHTS",
+     "layer": {
+      "text": "TOKYO NIGHTS",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.12,
+      "color": {
+       "r": 1,
+       "g": 0.4,
+       "b": 0.8
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.3,
+      "glow": 0.7,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 0.3,
+       "g": 0.8,
+       "b": 1
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-beach-day",
+   "name": "Beach Day",
+   "category": "Travel",
+   "family": "classic",
+   "symbol": "beach.umbrella",
+   "hue": 0.5,
+   "bpm": 104,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "softSwipe"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "salt water therapy",
+     "layer": {
+      "text": "salt water therapy",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-mountains",
+   "name": "Mountain Air",
+   "category": "Travel",
+   "family": "classic",
+   "symbol": "mountain.2",
+   "hue": 0.4,
+   "bpm": 90,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 8,
+     "effect": "pull",
+     "transition": "blurZoom"
+    }
+   ],
+   "transitionSeconds": 0.8,
+   "look": "arctic",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "above the clouds",
+     "layer": {
+      "text": "above the clouds",
+      "fontFamily": "Didot",
+      "bold": false,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 14,
+     "motion": "typewriter",
+     "stepBeats": 1
+    },
+    {
+     "label": "Height",
+     "placeholder": "3,200 m",
+     "layer": {
+      "text": "3,200 m",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.045,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.56
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 6,
+     "beats": 16,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-itinerary",
+   "name": "Itinerary",
+   "category": "Travel",
+   "family": "kinetic",
+   "symbol": "list.bullet",
+   "hue": 0.6,
+   "bpm": 116,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "whip"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Plan",
+     "placeholder": "day 1  arrive\nday 2  explore\nday 3  eat everything",
+     "layer": {
+      "text": "day 1  arrive\nday 2  explore\nday 3  eat everything",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.25,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "travel-then-there",
+   "name": "Here vs There",
+   "category": "Travel",
+   "family": "beforeAfter",
+   "symbol": "arrow.left.arrow.right",
+   "hue": 0.55,
+   "bpm": 110,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "kodachrome",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "MONDAY",
+    "FRIDAY"
+   ]
+  }
+ ]
+}
