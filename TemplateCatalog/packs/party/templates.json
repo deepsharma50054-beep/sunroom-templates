@@ -1,0 +1,594 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "party-its-my-birthday",
+   "name": "It's My Birthday",
+   "category": "Birthday & Party",
+   "family": "kinetic",
+   "symbol": "gift",
+   "hue": 0.9,
+   "bpm": 128,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "spin"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "IT'S MY BIRTHDAY",
+     "layer": {
+      "text": "IT'S MY BIRTHDAY",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 0.9,
+       "b": 0.2
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.35,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "gradient": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      }
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-turning",
+   "name": "Turning 30",
+   "category": "Birthday & Party",
+   "family": "classic",
+   "symbol": "number",
+   "hue": 0.12,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Age",
+     "placeholder": "30",
+     "layer": {
+      "text": "30",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.32,
+      "color": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.8,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.6,
+       "b": 0.2
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Words",
+     "placeholder": "and thriving",
+     "layer": {
+      "text": "and thriving",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.62
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 4,
+     "beats": 16,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-night",
+   "name": "Party Night",
+   "category": "Birthday & Party",
+   "family": "classic",
+   "symbol": "music.note",
+   "hue": 0.78,
+   "bpm": 132,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "glitch"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "neonNight",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "PARTY MODE",
+     "layer": {
+      "text": "PARTY MODE",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.13,
+      "color": {
+       "r": 0.4,
+       "g": 1,
+       "b": 0.9
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.3,
+      "glow": 0.8,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 0.2,
+       "g": 0.9,
+       "b": 1
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-dump",
+   "name": "Party Dump",
+   "category": "Birthday & Party",
+   "family": "photoDump",
+   "symbol": "photo.stack",
+   "hue": 0.9,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "last night",
+     "layer": {
+      "text": "last night",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 0.8,
+       "g": 0.2,
+       "b": 0.4
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 7,
+    "width": 0.72,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 1,
+     "g": 0.86,
+     "b": 0.5
+    }
+   }
+  },
+  {
+   "key": "party-wish",
+   "name": "Make a Wish",
+   "category": "Birthday & Party",
+   "family": "classic",
+   "symbol": "sparkles",
+   "hue": 0.1,
+   "bpm": 96,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "blurZoom"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "make a wish",
+     "layer": {
+      "text": "make a wish",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 0.92,
+       "b": 0.75
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.7,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      }
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-kids",
+   "name": "Little One Turns 1",
+   "category": "Birthday & Party",
+   "family": "classic",
+   "symbol": "teddybear",
+   "hue": 0.12,
+   "bpm": 112,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "circle"
+    },
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.4,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "one year of you",
+     "layer": {
+      "text": "one year of you",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-countdown",
+   "name": "Party Countdown",
+   "category": "Birthday & Party",
+   "family": "kinetic",
+   "symbol": "timer",
+   "hue": 0.0,
+   "bpm": 128,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Count",
+     "placeholder": "3 2 1 PARTY!",
+     "layer": {
+      "text": "3 2 1 PARTY!",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.28,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.8,
+      "tracking": 0.0,
+      "depth": 0.0,
+      "glowColor": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.7
+      }
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "party-squad",
+   "name": "The Squad",
+   "category": "Birthday & Party",
+   "family": "classic",
+   "symbol": "person.3",
+   "hue": 0.85,
+   "bpm": 124,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "slideLeft"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "the whole squad",
+     "layer": {
+      "text": "the whole squad",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}
