@@ -1,0 +1,489 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "fit-workout",
+   "name": "Workout of the Day",
+   "category": "Fitness",
+   "family": "kinetic",
+   "symbol": "dumbbell",
+   "hue": 0.3,
+   "bpm": 136,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "moody",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "WORKOUT OF THE DAY",
+     "layer": {
+      "text": "WORKOUT OF THE DAY",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.12,
+      "color": {
+       "r": 0.75,
+       "g": 1,
+       "b": 0.2
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.15
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "fit-day-one",
+   "name": "Day 1 vs Day 100",
+   "category": "Fitness",
+   "family": "beforeAfter",
+   "symbol": "figure.strengthtraining.traditional",
+   "hue": 0.3,
+   "bpm": 128,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "moody",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "DAY 1",
+    "DAY 100"
+   ]
+  },
+  {
+   "key": "fit-reps",
+   "name": "Count the Reps",
+   "category": "Fitness",
+   "family": "kinetic",
+   "symbol": "number",
+   "hue": 0.32,
+   "bpm": 140,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.1,
+   "look": "noir",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Count",
+     "placeholder": "1 2 3 4 5 6 7 8 9 10",
+     "layer": {
+      "text": "1 2 3 4 5 6 7 8 9 10",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.25,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "fit-morning-run",
+   "name": "Morning Run",
+   "category": "Fitness",
+   "family": "classic",
+   "symbol": "sunrise",
+   "hue": 0.1,
+   "bpm": 124,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "drift",
+     "transition": "slideLeft"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "5 km before 6 am",
+     "layer": {
+      "text": "5 km before 6 am",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "fit-no-excuses",
+   "name": "No Excuses",
+   "category": "Fitness",
+   "family": "kinetic",
+   "symbol": "flame",
+   "hue": 0.02,
+   "bpm": 140,
+   "length": 10,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "glitch"
+    },
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "cyberpunk",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "NO EXCUSES. JUST RESULTS.",
+     "layer": {
+      "text": "NO EXCUSES. JUST RESULTS.",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.12,
+      "color": {
+       "r": 1,
+       "g": 0.35,
+       "b": 0.2
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "fit-yoga",
+   "name": "Yoga Flow",
+   "category": "Fitness",
+   "family": "classic",
+   "symbol": "figure.yoga",
+   "hue": 0.45,
+   "bpm": 84,
+   "length": 20,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 8,
+     "effect": "drift",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 1.0,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "breathe in, breathe out",
+     "layer": {
+      "text": "breathe in, breathe out",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.4,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "fit-meal-prep",
+   "name": "Meal Prep Sunday",
+   "category": "Fitness",
+   "family": "photoDump",
+   "symbol": "takeoutbag.and.cup.and.straw",
+   "hue": 0.3,
+   "bpm": 118,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "meal prep sunday",
+     "layer": {
+      "text": "meal prep sunday",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 0.2,
+       "g": 0.45,
+       "b": 0.25
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 3,
+    "width": 0.78,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.85,
+     "g": 0.95,
+     "b": 0.85
+    }
+   }
+  },
+  {
+   "key": "fit-progress",
+   "name": "Progress Check",
+   "category": "Fitness",
+   "family": "classic",
+   "symbol": "chart.bar",
+   "hue": 0.33,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.25,
+   "look": "tealOrange",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "MONTH 3 CHECK-IN",
+     "layer": {
+      "text": "MONTH 3 CHECK-IN",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.1,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  }
+ ]
+}
