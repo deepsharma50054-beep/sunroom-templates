@@ -1,0 +1,562 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "food-recipe",
+   "name": "Quick Recipe",
+   "category": "Food & Café",
+   "family": "kinetic",
+   "symbol": "list.bullet.clipboard",
+   "hue": 0.08,
+   "bpm": 116,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 2,
+     "effect": "pull",
+     "transition": "slideLeft"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "15-minute pasta",
+     "layer": {
+      "text": "15-minute pasta",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.08,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.15
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Steps",
+     "placeholder": "boil\ntoss\nenjoy",
+     "layer": {
+      "text": "boil\ntoss\nenjoy",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.8
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 4,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-cafe",
+   "name": "Café Vibes",
+   "category": "Food & Café",
+   "family": "classic",
+   "symbol": "cup.and.saucer",
+   "hue": 0.07,
+   "bpm": 92,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "softSwipe"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "vintage70s",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "slow mornings",
+     "layer": {
+      "text": "slow mornings",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 0.95,
+       "b": 0.88
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-review",
+   "name": "Rate This Dish",
+   "category": "Food & Café",
+   "family": "classic",
+   "symbol": "star.leadinghalf.filled",
+   "hue": 0.1,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Dish",
+     "placeholder": "worth the hype?",
+     "layer": {
+      "text": "worth the hype?",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Score",
+     "placeholder": "9/10",
+     "layer": {
+      "text": "9/10",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.14,
+      "color": {
+       "r": 1,
+       "g": 0.8,
+       "b": 0.35
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.82
+      },
+      "outline": 0.4,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 8,
+     "beats": 16,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-what-i-eat",
+   "name": "What I Eat in a Day",
+   "category": "Food & Café",
+   "family": "photoDump",
+   "symbol": "fork.knife",
+   "hue": 0.08,
+   "bpm": 120,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 3,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "what i eat in a day",
+     "layer": {
+      "text": "what i eat in a day",
+      "fontFamily": "Marker Felt",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 0.45,
+       "g": 0.25,
+       "b": 0.15
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.9
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 4,
+    "width": 0.78,
+    "border": 0.045,
+    "bottom": 0.2,
+    "paper": {
+     "r": 0.98,
+     "g": 0.97,
+     "b": 0.95
+    },
+    "backdrop": {
+     "r": 0.95,
+     "g": 0.9,
+     "b": 0.82
+    }
+   }
+  },
+  {
+   "key": "food-street",
+   "name": "Street Food Tour",
+   "category": "Food & Café",
+   "family": "classic",
+   "symbol": "takeoutbag.and.cup.and.straw",
+   "hue": 0.05,
+   "bpm": 128,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "whip"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "flash"
+    },
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "whip"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "tealOrange",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "STREET FOOD TOUR",
+     "layer": {
+      "text": "STREET FOOD TOUR",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.11,
+      "color": {
+       "r": 1,
+       "g": 0.85,
+       "b": 0.3
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.35,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-bake",
+   "name": "Bake With Me",
+   "category": "Food & Café",
+   "family": "classic",
+   "symbol": "birthday.cake",
+   "hue": 0.95,
+   "bpm": 100,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.5,
+   "look": "pastelDream",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "bake with me",
+     "layer": {
+      "text": "bake with me",
+      "fontFamily": "Snell Roundhand",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.15
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-menu",
+   "name": "Today's Menu",
+   "category": "Food & Café",
+   "family": "kinetic",
+   "symbol": "menucard",
+   "hue": 0.07,
+   "bpm": 110,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "slideLeft"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Menu",
+     "placeholder": "soup  $6\nsalad  $8\npasta  $12",
+     "layer": {
+      "text": "soup  $6\nsalad  $8\npasta  $12",
+      "fontFamily": "American Typewriter",
+      "bold": false,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.25,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 14,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "food-raw-cooked",
+   "name": "Raw to Ready",
+   "category": "Food & Café",
+   "family": "beforeAfter",
+   "symbol": "flame",
+   "hue": 0.08,
+   "bpm": 110,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "RAW",
+    "READY"
+   ]
+  }
+ ]
+}
