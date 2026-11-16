@@ -1,0 +1,229 @@
+{
+ "schema": 1,
+ "updated": "2026-11-15",
+ "revision": 1794797541,
+ "packs": [
+  {
+   "id": "travel",
+   "title": "Travel",
+   "detail": "Trips, cities and road days: maps-and-postcards feel, quick cuts on the move.",
+   "symbol": "airplane",
+   "hue": 0.55,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/travel/templates.json",
+     "size": 10291,
+     "sha256": "9aa5f9f5e65ded14d157d8cf6b21ce8721061873ec240842591ef886a2fc9334"
+    },
+    {
+     "path": "packs/travel/anim/plane.json",
+     "size": 2019,
+     "sha256": "1ace5af60bda72bacb6f4de25a46321da9e30557c5700def69a3d94444763545",
+     "title": "Plane Trail",
+     "symbol": "airplane"
+    },
+    {
+     "path": "packs/travel/anim/pin.json",
+     "size": 2846,
+     "sha256": "bd0b33896e84a9107a7a35aa44c6a91cb604f335257023e43a354410780c4635",
+     "title": "Map Pin",
+     "symbol": "mappin.and.ellipse"
+    },
+    {
+     "path": "packs/travel/anim/wanderlust.json",
+     "size": 2384,
+     "sha256": "e02d519a0874afdab73f452a0b18602d805aef425abeb602e3bad2a0bfef7fd0",
+     "title": "Wanderlust",
+     "symbol": "textformat"
+    }
+   ]
+  },
+  {
+   "id": "love",
+   "title": "Wedding & Love",
+   "detail": "Weddings, anniversaries and couples: slow dissolves, soft light, elegant words.",
+   "symbol": "heart.circle",
+   "hue": 0.95,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/love/templates.json",
+     "size": 10234,
+     "sha256": "ab4b7ddd5a32a162c762ca8c77d3c950d2e81d2aebc074e3fb294a8765a8bf33"
+    },
+    {
+     "path": "packs/love/anim/rings.json",
+     "size": 2864,
+     "sha256": "d50358d7afb0a4624950f42b76711efe5e18bd1e563cfaf2b73a8b6e0815ac96",
+     "title": "Rings",
+     "symbol": "circle.circle"
+    },
+    {
+     "path": "packs/love/anim/hearts.json",
+     "size": 6929,
+     "sha256": "4f17872acc78029877b16b38cc75098ca99889086ae694fe4ab0d4cb4248777d",
+     "title": "Floating Hearts",
+     "symbol": "heart.fill"
+    },
+    {
+     "path": "packs/love/anim/just-married.json",
+     "size": 2399,
+     "sha256": "5cebda604507b047c0e1d2715461d6a24f26a73a44ccc189134cc35d02b0f97f",
+     "title": "Just Married",
+     "symbol": "textformat"
+    }
+   ]
+  },
+  {
+   "id": "party",
+   "title": "Birthday & Party",
+   "detail": "Birthdays, parties and celebrations: confetti, big words, fast fun cuts.",
+   "symbol": "birthday.cake",
+   "hue": 0.88,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/party/templates.json",
+     "size": 10405,
+     "sha256": "7bdc7f2221e5af19843e0b4573bd5030e807b917907e078a60e5e1e416a8ab98"
+    },
+    {
+     "path": "packs/party/anim/balloons.json",
+     "size": 4353,
+     "sha256": "2a2f0c4e8be2049cd9024eaa32a048cd07e3e5ae9de202b73df8080f53a4cb7c",
+     "title": "Balloons",
+     "symbol": "balloon.2.fill"
+    },
+    {
+     "path": "packs/party/anim/party-confetti.json",
+     "size": 16875,
+     "sha256": "db46f342d68f03ef64b9a7b006d94366fd50c9a201bd1e1f42fbe34e66c792de",
+     "title": "Party Confetti",
+     "symbol": "party.popper"
+    },
+    {
+     "path": "packs/party/anim/happy-birthday.json",
+     "size": 2420,
+     "sha256": "a25e1c93895d6d7871180f1da23d23c3b62a4bdd2a155c243dd83060812cf890",
+     "title": "Happy Birthday",
+     "symbol": "textformat"
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "title": "Business & Sales",
+   "detail": "Shops, launches and offers: bold prices, clean product shots, clear calls to action.",
+   "symbol": "briefcase",
+   "hue": 0.6,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/business/templates.json",
+     "size": 10804,
+     "sha256": "7c5c20454bd3df20f600286a37fe7daa82efbcbd08b20b4852796bc5fe6437f7"
+    },
+    {
+     "path": "packs/business/anim/sale-badge.json",
+     "size": 2769,
+     "sha256": "7bd98d1d7e4a78bb07a5a3d7be6f68a3f888756b452c420c0c5906f314c6586b",
+     "title": "Sale Badge",
+     "symbol": "tag.fill"
+    },
+    {
+     "path": "packs/business/anim/new-badge.json",
+     "size": 2759,
+     "sha256": "8150687a56a157bcd757e9dcb73e5317733c65157d497784dbf82674c00f5209",
+     "title": "New Badge",
+     "symbol": "sparkle"
+    },
+    {
+     "path": "packs/business/anim/shop-now.json",
+     "size": 2758,
+     "sha256": "89a87464f5aab5630e26f7731333517a507f816828b0d0ddcc3f730e499bcf5c",
+     "title": "Shop Now",
+     "symbol": "cart.fill"
+    }
+   ]
+  },
+  {
+   "id": "fitness",
+   "title": "Fitness",
+   "detail": "Workouts, progress and routines: punchy cuts, counters and high-energy words.",
+   "symbol": "figure.run",
+   "hue": 0.3,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/fitness/templates.json",
+     "size": 8662,
+     "sha256": "a5442150cf9ba7d2ff5b78f1e1a31b74a23f06554bacc6d13bbe82fdd9719656"
+    },
+    {
+     "path": "packs/fitness/anim/bolt.json",
+     "size": 1342,
+     "sha256": "28b28b14b5591fb52af43f18596a3a39fb91bdd5e266d93affb31b14735fcd6b",
+     "title": "Lightning",
+     "symbol": "bolt.fill"
+    },
+    {
+     "path": "packs/fitness/anim/day-counter.json",
+     "size": 2763,
+     "sha256": "9be1b84d39ad9641b9f23804867efc2eb2f3480d9d0800bfd194b4f27c9c186c",
+     "title": "Day Counter",
+     "symbol": "calendar"
+    },
+    {
+     "path": "packs/fitness/anim/lets-go.json",
+     "size": 2355,
+     "sha256": "201eda8f59cb79b591fb7658f24e3eeb74afd9480ef23b2459fcef5f8079e4f0",
+     "title": "Let's Go",
+     "symbol": "textformat"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food & Café",
+   "detail": "Recipes, cafés and restaurants: warm looks, steam and star ratings.",
+   "symbol": "fork.knife",
+   "hue": 0.08,
+   "templates": 8,
+   "animations": 3,
+   "files": [
+    {
+     "path": "packs/food/templates.json",
+     "size": 10039,
+     "sha256": "855c6a8fe73c46288e85ee6e30545bde2492f8682affff66043dec246227fd84"
+    },
+    {
+     "path": "packs/food/anim/steam.json",
+     "size": 4349,
+     "sha256": "50dddba0d707d7697441136eb00afb6ab77b810030a8499bcb0c70af26555816",
+     "title": "Steam",
+     "symbol": "cloud"
+    },
+    {
+     "path": "packs/food/anim/rating.json",
+     "size": 5930,
+     "sha256": "863192e6830f5702003693de8cfa2deaf85b0593e52423ebb87547244044fd35",
+     "title": "Star Rating",
+     "symbol": "star.fill"
+    },
+    {
+     "path": "packs/food/anim/yummy.json",
+     "size": 2369,
+     "sha256": "1f83e7a7db04f9b67f570840207b2532b0119b5003a03cc5b0f190373ec01b0f",
+     "title": "Yummy",
+     "symbol": "textformat"
+    }
+   ]
+  }
+ ]
+}
