@@ -1,0 +1,601 @@
+{
+ "schema": 1,
+ "templates": [
+  {
+   "key": "biz-launch",
+   "name": "Launch Day",
+   "category": "Business & Sales",
+   "family": "kinetic",
+   "symbol": "paperplane",
+   "hue": 0.6,
+   "bpm": 128,
+   "length": 12,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "push",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.2,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Words",
+     "placeholder": "IT'S FINALLY HERE",
+     "layer": {
+      "text": "IT'S FINALLY HERE",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.13,
+      "color": {
+       "r": 0.08,
+       "g": 0.08,
+       "b": 0.08
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.2,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 8,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "Shop",
+     "placeholder": "available now",
+     "layer": {
+      "text": "available now",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.05,
+      "color": {
+       "r": 0.08,
+       "g": 0.08,
+       "b": 0.08
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.6
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 6,
+     "beats": 16,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-bogo",
+   "name": "Buy One Get One",
+   "category": "Business & Sales",
+   "family": "kinetic",
+   "symbol": "tag",
+   "hue": 0.98,
+   "bpm": 136,
+   "length": 10,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 1,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 1,
+     "effect": "shake",
+     "transition": "flash"
+    }
+   ],
+   "transitionSeconds": 0.15,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Deal",
+     "placeholder": "BUY 1 GET 1 FREE",
+     "layer": {
+      "text": "BUY 1 GET 1 FREE",
+      "fontFamily": "Impact",
+      "bold": false,
+      "italic": false,
+      "size": 0.15,
+      "color": {
+       "r": 1,
+       "g": 0.9,
+       "b": 0.1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0.5,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "slam",
+     "stepBeats": 1
+    },
+    {
+     "label": "When",
+     "placeholder": "this weekend only",
+     "layer": {
+      "text": "this weekend only",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.045,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.85
+      },
+      "outline": 0.0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 6,
+     "beats": 20,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-behind",
+   "name": "Behind the Scenes",
+   "category": "Business & Sales",
+   "family": "classic",
+   "symbol": "camera",
+   "hue": 0.08,
+   "bpm": 108,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drift",
+     "transition": "slideLeft"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.4,
+   "look": "fadedFilm",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "how we make it",
+     "layer": {
+      "text": "how we make it",
+      "fontFamily": "American Typewriter",
+      "bold": false,
+      "italic": false,
+      "size": 0.07,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.15
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-three-reasons",
+   "name": "3 Reasons",
+   "category": "Business & Sales",
+   "family": "kinetic",
+   "symbol": "list.number",
+   "hue": 0.55,
+   "bpm": 116,
+   "length": 18,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "whip"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "whip"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "List",
+     "placeholder": "1. made by hand\n2. ships in 24h\n3. loved by 10k+",
+     "layer": {
+      "text": "1. made by hand\n2. ships in 24h\n3. loved by 10k+",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.06,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.5
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 16,
+     "motion": "stack",
+     "stepBeats": 3
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-review",
+   "name": "5-Star Review",
+   "category": "Business & Sales",
+   "family": "classic",
+   "symbol": "star.fill",
+   "hue": 0.12,
+   "bpm": 96,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "drift",
+     "transition": "dissolve"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.6,
+   "look": "goldenHour",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Quote",
+     "placeholder": "“best purchase this year”",
+     "layer": {
+      "text": "“best purchase this year”",
+      "fontFamily": "Georgia",
+      "bold": false,
+      "italic": false,
+      "size": 0.065,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.45
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.6,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 12,
+     "motion": "typewriter",
+     "stepBeats": 1
+    },
+    {
+     "label": "Who",
+     "placeholder": "— a happy customer",
+     "layer": {
+      "text": "— a happy customer",
+      "fontFamily": "Avenir Next",
+      "bold": true,
+      "italic": false,
+      "size": 0.04,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.58
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 6,
+     "beats": 16,
+     "motion": "pop",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-unboxing",
+   "name": "Unboxing",
+   "category": "Business & Sales",
+   "family": "classic",
+   "symbol": "shippingbox",
+   "hue": 0.1,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "push",
+     "transition": "zoom"
+    },
+    {
+     "beats": 2,
+     "effect": "punch",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "pull",
+     "transition": "dissolve"
+    }
+   ],
+   "transitionSeconds": 0.3,
+   "look": "naturalPop",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "unboxing time",
+     "layer": {
+      "text": "unboxing time",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.09,
+      "color": {
+       "r": 1,
+       "g": 1,
+       "b": 1
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.2
+      },
+      "outline": 0.3,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0.5,
+      "glow": 0.0,
+      "tracking": 0.0,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 6,
+     "motion": "slam",
+     "stepBeats": 1
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "key": "biz-catalog",
+   "name": "Product Lineup",
+   "category": "Business & Sales",
+   "family": "photoDump",
+   "symbol": "square.grid.2x2",
+   "hue": 0.58,
+   "bpm": 120,
+   "length": 15,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 2,
+     "effect": "drop",
+     "transition": "none"
+    }
+   ],
+   "transitionSeconds": 0,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [
+    {
+     "label": "Title",
+     "placeholder": "THE COLLECTION",
+     "layer": {
+      "text": "THE COLLECTION",
+      "fontFamily": "Futura",
+      "bold": true,
+      "italic": false,
+      "size": 0.055,
+      "color": {
+       "r": 0.08,
+       "g": 0.08,
+       "b": 0.08
+      },
+      "center": {
+       "x": 0.5,
+       "y": 0.08
+      },
+      "outline": 0,
+      "outlineColor": {
+       "r": 0,
+       "g": 0,
+       "b": 0
+      },
+      "shadow": 0,
+      "glow": 0.0,
+      "tracking": 0.15,
+      "depth": 0.0
+     },
+     "startBeats": 0,
+     "beats": 10,
+     "motion": "typewriter",
+     "stepBeats": 1
+    }
+   ],
+   "notes": "",
+   "card": {
+    "tilt": 0,
+    "width": 0.8,
+    "border": 0.0,
+    "bottom": 0.0,
+    "paper": {
+     "r": 1,
+     "g": 1,
+     "b": 1
+    },
+    "backdrop": {
+     "r": 0.94,
+     "g": 0.95,
+     "b": 0.97
+    }
+   }
+  },
+  {
+   "key": "biz-results",
+   "name": "Real Results",
+   "category": "Business & Sales",
+   "family": "beforeAfter",
+   "symbol": "chart.line.uptrend.xyaxis",
+   "hue": 0.4,
+   "bpm": 110,
+   "length": 16,
+   "loops": true,
+   "slots": [
+    {
+     "beats": 4,
+     "effect": "none",
+     "transition": "flash"
+    },
+    {
+     "beats": 4,
+     "effect": "push",
+     "transition": "splitReveal"
+    }
+   ],
+   "transitionSeconds": 1.2,
+   "look": "cleanBright",
+   "lookAmount": 1.0,
+   "texts": [],
+   "notes": "",
+   "labels": [
+    "BEFORE",
+    "AFTER"
+   ]
+  }
+ ]
+}
